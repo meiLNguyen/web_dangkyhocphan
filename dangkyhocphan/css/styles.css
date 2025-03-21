@@ -1,0 +1,33 @@
+/* Custom styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;
+}
+
+.student-img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.student-detail-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.form-group img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.table th, .table td {
+    vertical-align: middle;
+}
